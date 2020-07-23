@@ -2,7 +2,7 @@ Feature: Adicionar produto no carrinho de compras da loja Ponto Frio
     Como cliente do portal da loja Ponto Frio
     Eu desejo adicionar um produto no meu carrinho de compras
     Para que eu possa realizar minha compra com sucesso
-
+    
     Scenario: Adicionar produto no carrinho sem logar
         Given eu estou na página inicial
         When eu realizo a pesquisa do produto desejado "Pipoqueira Elétrica"
@@ -18,7 +18,3 @@ Feature: Adicionar produto no carrinho de compras da loja Ponto Frio
         And eu preencho os dados de endereço
         And eu preencho os dados de pagamento
         Then eu recebo a confirmação da compra do produto desejado
-
-
-
-    

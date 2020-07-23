@@ -24,6 +24,10 @@ class PaginaPrincipalPage {
         this.searchTxt.setValue(item);
         browser.keys('Enter');
     }
+
+    open(){
+        browser.url('/')
+    }
 }
 
 module.exports = PaginaPrincipalPage;
