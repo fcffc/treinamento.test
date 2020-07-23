@@ -7,11 +7,11 @@ const assert = require('chai').assert;
 
 class PaginaPrincipalPage {
     // define os elementos
-    get previousBtn() { return $('div > div[class*="bnrAuto"] > button[aria-label="Previous"]') }
+    get previousBtn() { return $('i[class*="previous"]') }
 
-    get searchTxt() { return $('input#strBusca') }
+    get searchTxt() { return $('input#twotabsearchtextbox') }
 
-    get okBtn() { return $('button#btnOK') }
+    get okBtn() { return $('input[value="Ir"]') }
 
     //Metodos dos elementos de ação
     isPreviousVisible() {
