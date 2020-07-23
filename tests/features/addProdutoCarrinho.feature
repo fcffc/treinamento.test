@@ -11,10 +11,10 @@ Feature: Adicionar produto no carrinho de compras da loja Ponto Frio
         And eu visualizo as formas de pagamento
         And eu visualizo meu produto no carrinho de compra
         And eu clico em concluir a minha compra
-        And eu realizo o meu cadastro
-        Given eu estou na página de identificação do portal
-        When eu preencho os dados obrigatórios do dados pessoais
-        And eu preencho os dados obrigatórios dos dados de acesso ao Ponto Frio
-        And eu preencho os dados de endereço
-        And eu preencho os dados de pagamento
-        Then eu recebo a confirmação da compra do produto desejado
+        # And eu realizo o meu cadastro
+        # Given eu estou na página de identificação do portal
+        # When eu preencho os dados obrigatórios do dados pessoais
+        # And eu preencho os dados obrigatórios dos dados de acesso ao Ponto Frio
+        # And eu preencho os dados de endereço
+        # And eu preencho os dados de pagamento
+        # Then eu recebo a confirmação da compra do produto desejado

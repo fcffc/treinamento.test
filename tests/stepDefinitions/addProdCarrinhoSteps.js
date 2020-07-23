@@ -23,7 +23,7 @@ Given(/^eu estou na página inicial$/, () => {
 });
 
 When(/^eu realizo a pesquisa do produto desejado "([^"]*)"$/, (nomeProduto) => {
-    
+    paginaPrincipalPage.searchProduct(nomeProduto);
 });
 
 When(/^eu seleciono o produto pelas especificações desejadas$/, () => {
